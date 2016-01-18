@@ -32,7 +32,7 @@
     [super viewDidLoad];
     self.title = @"YQ网易Demo";
     self.view.backgroundColor = [UIColor greenColor];
-    self.headArray = [NSMutableArray arrayWithObjects:@"头条", @"娱乐", @"体育", @"科技", @"金融", @"NBA", @"财经", nil];
+    self.headArray = [NSMutableArray arrayWithObjects:@"头条", @"娱乐", @"体育", nil];
     [self createView];
     // Do any additional setup after loading the view, typically from a nib.
 }
@@ -42,7 +42,7 @@
     self.automaticallyAdjustsScrollViewInsets = NO;
     self.headerScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 64, YQWidth, 40)];
     _headerScrollView.backgroundColor = [UIColor purpleColor];
-    _headerScrollView.contentSize = CGSizeMake(560, 0);
+    _headerScrollView.contentSize = CGSizeMake(480, 0);
     _headerScrollView.bounces = NO;
     _headerScrollView.pagingEnabled = YES;
     [self.view addSubview:_headerScrollView];
