@@ -88,8 +88,16 @@
             case 101:
                 [self replaceController:self.currentVC newController:self.secondVC];
                 break;
-            case 102:
+            case 103:
                 [self replaceController:self.currentVC newController:self.thirdVC];
+                break;
+            case 104:
+                break;
+            case 105:
+                break;
+            case 106:
+                break;
+            case 107:
                 break;
             default:
                 break;
